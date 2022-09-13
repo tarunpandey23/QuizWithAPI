@@ -19,22 +19,63 @@
 <body>
     
         
-          <div class="container">
-            <div class="scoreContainer"> 
-                <h2>score</h2>
-                 <p id="score" name="score">0</p>
-              </div><br>
-             <div class="question_container">
-                 <h4 class="question" id="ques"> Loading...</h4>
-             </div>
-             <div>
-                 <h6 id="optA" class="option" onclick="checkHandler()"></h6>
-                 <h6 id="optB" class="option"onclick="checkHandler()"></h6>
-                 <h6 id="optC" class="option" onclick="checkHandler()"></h6>
-                 <h6 id="optD" class="option"onclick="checkHandler()"></h6>
+          <div class="outer-div">
+            
+             <div class="question-div">
+                <h4 id="ques" class="question"> Loading...</h2>   
+            </div>
+             <div class="answer-div">
+                 <ol>
+                    <li>
+                        <input type="radio" name="answer" id="ans1" class="answer">
+                        <label for="ans1" id="optA"> </label>
+                    </li>
+                
+                    <li>
+                       <input type="radio" name="answer" id="ans2" class="answer">
+                       <label for="ans2" id="optB"></label>
+                    </li>
+                    <li>
+                       <input type="radio" name="answer" id="ans3" class="answer">
+                       <label for="ans3" id="optC">  </label>
+                    </li>
+                    <li>
+                       <input type="radio" name="answer" id="ans4" class="answer">
+                       <label for="ans4" id="optD"></label>
+                    </li>
+                </ol> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+                 <h6 id="optA" class="option" onclick="checkHandler()"value="click"></h6>
+                 <h6 id="optB" class="option" onclick="checkHandler2()"value="click"></h6>
+                 <h6 id="optC" class="option" onclick="checkHandler3()"value="click"></h6>
+                 <h6 id="optD" class="option" onclick="checkHandler4()" value="click"></h6> -->
                  
      
              </div>
+             <button type="submit" class="btn" id="submit">submit</button>
+             <div class="showScore" id="show">
+
+            </div>
           </div>
  
      

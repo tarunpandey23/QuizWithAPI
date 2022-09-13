@@ -20,55 +20,77 @@ body{
     justify-content: center;
     width: 50%;
     padding:3rem;
-    
-    
-    
 }
 
-.question{
-   
-    color:red;
-    text-transform: capitalize;
-    margin-bottom: 2rem;
-}
-
-.option{
-    margin:1rem;
-    display: flex;
-    height: 2.5rem;
-    background-color: skyblue;
-    border-radius: 0 5px 5px 0;
-    width: 100%;
-    padding: 16px;
-
-}
-.p1{
-    background-color: plum;
-    width:35px;
-    padding: 10px;
-    font-weight: bolder;
-}
-.p2{
-  
-    padding-left: 12px;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    font-weight: bolder;
-
-}
-.option:hover{
-  cursor: pointer;
-    -webkit-box-shadow: 0px 4px 8px 2px #000000;
-    -moz-box-shadow: 0px 4px 8px 2px #000000;
-     box-shadow: 0px 4px 8px 2px #000000;
-}
 .scoreContainer{
-    color:red;
+    color: white;
     text-transform: capitalize;
     margin-bottom: 2rem;
 }
 h2{
     margin-right:25rem;
+}
+.answer-div ol li{
+    list-style: none;
+    text-align: left;
+}
+.answer-div{
+   
+    padding-left: 2rem;
+   
+}
+.answer-div 
+{
+    color:black;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.btn{
+    height: 3rem;
+    width: 8rem;
+    margin-top: 2rem;
+    background:linear-gradient(57deg,#00c6a7,#1e4d92);
+    border:1px solid white;
+    border-radius: 4px;
+    color:#fff;
+    
+}
+.btn:hover{
+    background:linear-gradient(57deg,#1e4d92,#00c6a7);
+
+}
+.outer-div{
+    background:linear-gradient(57deg,#00c6a7,#1e4d92);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    width:50%;
+    height: auto;
+    padding: 5rem;
+    margin: auto;
+    margin-top: 4rem;
+    padding-left: 10rem;
+    border-radius: 15px;
+}
+
+.question-div h4{
+    color:white;
+    margin-bottom: 2rem;
+}
+#show{
+
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 1rem;
+    padding-left: 10rem;
+    border-radius: 15px;
+    background:linear-gradient(57deg,#00c6a7,#eee);
+    color:white;
+   
+
+}
+
+.showScore{
+    display: none;
 }
 
 
